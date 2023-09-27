@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 
 const connectDB = async () => {
   try {
-    await mongoose.connect('mongodb+srv://uniquelivingqro1:P94YE2e2HwjDlYlU@uniqueliving.c3fx2cg.mongodb.net/?retryWrites=true&w=majority', {
+    await mongoose.connect(, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
